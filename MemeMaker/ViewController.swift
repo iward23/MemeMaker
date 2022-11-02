@@ -8,15 +8,15 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    @IBOutlet var bottomCaption: UILabel!
-    @IBOutlet var topCaption: UILabel!
-    
-    @IBOutlet var topSegementicControl: UISegmentedControl!
-    @IBOutlet var bottomSegmenticControl: UISegmentedControl!
     
     
-    @IBAction func didValueChange(_ sender: Any) {
+    @IBOutlet var topSegmentedControl: UISegmentedControl!
+    @IBOutlet var bottomSegmentedControl: UISegmentedControl!
+    @IBOutlet var topCaptionLabel: UILabel!
+    @IBOutlet var bottomCaptionLabel: UILabel!
+    
+    @IBAction func segmentedControls(_ sender: UISegmentedControl) {
+        
     }
     
     
