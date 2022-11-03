@@ -6,7 +6,7 @@
 //
 
 import Foundation
-struct captionOption{
+struct captionOption {
     var emoji: String
     var caption: String
 }
